@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">圆盘</string>
+    <string name="full_screenshot">全屏截屏</string>
+    <string name="adobe_captivate">屏幕录制</string>
+    <string name="rectangular_screen">矩形截屏</string>
+    <string name="fun_screenshot">趣味截屏</string>
+    <string name="start_record">开始录屏</string>
+    <string name="stop_record">停止</string>
+    <string name="setting">设置</string>
+    <string name="finish_tv">完成</string>
+</resources>

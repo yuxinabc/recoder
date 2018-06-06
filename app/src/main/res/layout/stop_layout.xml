@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stop_window_detail"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:background="@mipmap/close"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/stop_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="12sp"/>
+
+</LinearLayout>

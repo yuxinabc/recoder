@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tdc.circlemoveview.CircleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="190dp"
+    android:layout_height="190dp"
+    android:id="@+id/float_window_circle"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    circle:background_color="@color/background_color"
+    circle:topColor="@color/topColor"
+    circle:rightColor="@color/rightColor"
+    circle:bottomColor="@color/bottomColor"
+    circle:leftColor="@color/leftColor">
+
+    <com.tdc.circlemoveview.DrawableCenterTextView
+        android:id="@+id/top"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="0dp"
+        android:drawableTop="@mipmap/luzhi"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textColor="@color/disk_text_color"
+        android:textSize="@dimen/disk_text_size"
+        android:text="@string/adobe_captivate" />
+
+    <com.tdc.circlemoveview.DrawableCenterTextView
+        android:id="@+id/left"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:drawableTop="@mipmap/luzhi"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textColor="@color/disk_text_color"
+        android:textSize="@dimen/disk_text_size"
+        android:text="@string/full_screenshot" />
+
+    <com.tdc.circlemoveview.DrawableCenterTextView
+        android:id="@+id/right"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:drawablePadding="0dp"
+        android:drawableTop="@mipmap/luzhi"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textColor="@color/disk_text_color"
+        android:textSize="@dimen/disk_text_size"
+        android:text="@string/rectangular_screen"/>
+
+    <ImageView
+        android:id="@+id/center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/close" />
+
+    <com.tdc.circlemoveview.DrawableCenterTextView
+        android:id="@+id/bottom"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="0dp"
+        android:drawableTop="@mipmap/luzhi"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textColor="@color/disk_text_color"
+        android:textSize="@dimen/disk_text_size"
+        android:text="@string/fun_screenshot"/>
+</com.tdc.circlemoveview.CircleRelativeLayout>
